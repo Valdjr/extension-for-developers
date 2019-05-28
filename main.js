@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     /* CPF generator */
-    var cpfGenerator = document.querySelector('#cpfgenerator');
-    cpfGenerator.addEventListener('click', function(e) {
+    var cpfgenerator = document.querySelector('#cpfgenerator');
+    cpfgenerator.addEventListener('click', function(e) {
         var cpf = cpfGenerator();
         document.querySelector('#cpfchecker').value = cpf;
     });
@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     /* CNPJ generator */
-    var cnpjGenerator = document.querySelector('#cnpjgenerator');
-    cnpjGenerator.addEventListener('click', function(e) {
+    var cnpjgenerator = document.querySelector('#cnpjgenerator');
+    cnpjgenerator.addEventListener('click', function(e) {
         var cnpj = cnpjGenerator();
         document.querySelector('#cnpjchecker').value = cnpj;
     });
