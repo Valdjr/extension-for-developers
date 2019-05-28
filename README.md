@@ -5,3 +5,4 @@ Google Chrome extension for developers.
  - Lower case
  - CPF generator and checker
  - CNPJ generator and checker
+ - GTIN generator (gtin13) and checker
